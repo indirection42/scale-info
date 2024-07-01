@@ -147,7 +147,7 @@
 //!
 //! `type_params(vec![TypeParameter::new("T", Some(MetaType::new::<T>()))])`
 //!
-//! In the example above, this will cause a compiler error because `Runtime` is the concrete tyoe
+//! In the example above, this will cause a compiler error because `Runtime` is the concrete type
 //! for `T`, which does not satisfy the `TypeInfo` requirement of `MetaType::new::<T>()`.
 //!
 //! Simply adding a `TypeInfo` derive to `Runtime` is one way of solving this, but that could be
